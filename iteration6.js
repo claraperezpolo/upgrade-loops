@@ -7,7 +7,7 @@ const toys = [
 ]
 
 let deleteToy = [];
-    for (var a of toys) {
+    for (let a of toys) {
         if(a.name.includes("gato")) {
             toys.splice(a, 0);
     } else {
